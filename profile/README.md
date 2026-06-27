@@ -14,7 +14,7 @@ The official frontend interface for the Master API. Built with Next.js (React). 
 **Agapornis Master (WORKING ON)**
 The central control plane and web panel. Built with **NestJS (TypeScript)**. It acts as the internal Certificate Authority (CA), orchestrates worker nodes, manages the UI, and issues mTLS certificates.
 
-* **Agapornis Agent (BETA)**
+**Agapornis Agent (BETA)**
 The remote worker daemon. Built with **C# (.NET 10 Native AOT)**. It runs on your worker nodes, communicates exclusively over mTLS, and manages the actual Docker containers and system resources with millisecond startup times.
 
 ###  Community & Status
