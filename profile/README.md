@@ -8,11 +8,13 @@ Built around strict mutual TLS (mTLS) and gRPC, it provides a highly secure, mod
 
 The project is split into two core repositories to maximize developer ergonomics on the frontend and raw machine-code performance on the backend:
 
-**Agapornis Frontend**
+**Agapornis Frontend (WOKRING ON)**
 The official frontend interface for the Master API. Built with Next.js (React). Because the Master is a pure API, you can use this official panel or easily build your own custom frontend to manage your network.
-**Agapornis Master**
+
+**Agapornis Master (WORKING ON)**
 The central control plane and web panel. Built with **NestJS (TypeScript)**. It acts as the internal Certificate Authority (CA), orchestrates worker nodes, manages the UI, and issues mTLS certificates.
-* **Agapornis Agent**
+
+* **Agapornis Agent (BETA)**
 The remote worker daemon. Built with **C# (.NET 10 Native AOT)**. It runs on your worker nodes, communicates exclusively over mTLS, and manages the actual Docker containers and system resources with millisecond startup times.
 
 ###  Community & Status
